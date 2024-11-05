@@ -2,6 +2,8 @@
 #include "C_P_C.h"
 using namespace std;
 
+//Main donde se pide al usuario que introduzca las notas de los examenes para calcular la media
+
 int main ()
 {
     double n1;

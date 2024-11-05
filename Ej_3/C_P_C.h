@@ -1,6 +1,8 @@
 #ifndef C_P_C_H
 #define C_P_C_H
 
+////Definicion de la clase C_P_C para poder usarla en el main.cpp
+
 class C_P_C
 {
 public:
