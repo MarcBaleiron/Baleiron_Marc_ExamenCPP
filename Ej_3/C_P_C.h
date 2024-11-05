@@ -1,7 +1,8 @@
 #ifndef C_P_C_H
 #define C_P_C_H
 
-class C_P_C {
+class C_P_C
+{
 public:
     double n1;
     double n2;
