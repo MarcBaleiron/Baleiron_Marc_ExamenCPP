@@ -7,8 +7,11 @@ using namespace std;
 int main ()
 {
     int n;
+
     P_N_C pnc;
+
     cout << "introduzca un numero: ";
     cin >> n;
+
     pnc.operacion (n);
 }

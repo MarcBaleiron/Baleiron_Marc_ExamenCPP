@@ -7,7 +7,9 @@ class P_N_C
 {
 public:
     int n;
+
     P_N_C ();
+
     void operacion (int n);
 };
 

@@ -7,7 +7,9 @@ class D_D_L_S
 {
 public:
     int n;
+
     D_D_L_S ();
+
     void operacion (int n);
 };
 

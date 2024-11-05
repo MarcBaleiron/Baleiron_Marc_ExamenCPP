@@ -7,8 +7,11 @@ using namespace std;
 int main ()
 {
     int n;
+
     D_D_L_S ddls;
+
     cout << "introduzca un numero del 1 al 7: ";
     cin >> n;
+
     ddls.operacion (n);
 }
