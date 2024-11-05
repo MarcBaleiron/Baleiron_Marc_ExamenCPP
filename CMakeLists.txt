@@ -17,3 +17,8 @@ add_executable(Baleiron_Marc_ExamenCPP_Ej_3
         Ej_3/main.cpp
         Ej_3/C_P_C.h
         Ej_3/C_P_C.cpp)
+
+add_executable(Baleiron_Marc_ExamenCPP_Ej_4
+        Ej_4/main.cpp
+        Ej_4/T_X_D.h
+        Ej_4/T_X_D.cpp)
