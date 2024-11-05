@@ -20,7 +20,7 @@ void D_D_L_S::operacion (int n)
             cout << "Lunes" << endl;
             break;
         case 2:
-            cout << "Marctes" << endl;
+            cout << "Martes" << endl;
             break;
         case 3:
             cout << "Miercoles" << endl;
