@@ -17,7 +17,7 @@ int main ()
         cout << "Introduzca el valor del articulo " << i + 1 << ": " << "\n";
         cin >> n[i];
 
-        while (n[i] < 0)
+        while (n[i] <= 0)
         {
             cout << "Introduzca un valor mayor que cero para el articulo " << i + 1 << ": " << "\n";
             cin >> n[i];
