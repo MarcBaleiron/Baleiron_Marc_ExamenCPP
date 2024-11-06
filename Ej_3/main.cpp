@@ -17,7 +17,7 @@ int main ()
 
         while (n[i] < 0 || n[i] > 10)
         {
-            cout << "Introduzca una nota valida entre 0 y 10 para la nota del examen numero: " << i + 1 << "\n";
+            cout << "Introduzca una nota valida (entre 0 y 10) para la nota del examen numero: " << i + 1 << "\n";
             cin >> n[i];
         }
     }
