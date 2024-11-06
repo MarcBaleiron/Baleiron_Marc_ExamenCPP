@@ -13,11 +13,11 @@ int main ()
     for (int i = 0; i < 8; i++)
     {
         cout << "Introduzca la nota del examen numero: " << i + 1 << "\n";
-        n[i] = 0;
+        cin >> n[i];
 
-        while (n[i] < 0 && n[i] > 10)
+        while (n[i] < 0 || n[i] > 10)
         {
-            cout << "Introduzca una nota valida entre 0 y 10\n";
+            cout << "Introduzca una nota valida entre 0 y 10 para la nota del examen numero: " << i + 1 << "\n";
             cin >> n[i];
         }
     }
