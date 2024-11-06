@@ -6,33 +6,21 @@ using namespace std;
 
 int main ()
 {
-    double n1;
-    double n2;
-    double n3;
-    double n4;
-    double n5;
-    double n6;
-    double n7;
-    double n8;
+    float n[8];
 
     C_P_C cpc;
 
-    cout << "Introduzca la nota del primer examen: " << "\n";
-    cin >> n1;
-    cout << "Introduzca la nota del segundo examen: " << "\n";
-    cin >> n2;
-    cout << "Introduzca la nota del tercer examen: " << "\n";
-    cin >> n3;
-    cout << "Introduzca la nota del cuarto examen: " << "\n";
-    cin >> n4;
-    cout << "Introduzca la nota del quinto examen: " << "\n";
-    cin >> n5;
-    cout << "Introduzca la nota del sexto examen: " << "\n";
-    cin >> n6;
-    cout << "Introduzca la nota del septimo examen: " << "\n";
-    cin >> n7;
-    cout << "Introduzca la nota del octavo examen: " << "\n";
-    cin >> n8;
+    for (int i = 0; i < 8; i++)
+    {
+        cout << "Introduzca la nota del examen numero: " << i + 1 << "\n";
+        n[i] = 0;
 
-    cpc.operacion (n1, n2, n3, n4, n5, n6, n7, n8);
+        while (n[i] < 0 && n[i] > 10)
+        {
+            cout << "Introduzca una nota valida entre 0 y 10\n";
+            cin >> n[i];
+        }
+    }
+
+    cpc.operacion (n[0], n[1], n[2], n[3], n[4], n[5], n[6], n[7]);
 }

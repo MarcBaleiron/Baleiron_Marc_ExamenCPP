@@ -6,18 +6,11 @@
 class C_P_C
 {
 public:
-    double n1;
-    double n2;
-    double n3;
-    double n4;
-    double n5;
-    double n6;
-    double n7;
-    double n8;
+    float n[8];
 
     C_P_C ();
 
-    void operacion (double n1, double n2, double n3, double n4, double n5, double n6, double n7, double n8);
+    void operacion (float n1, float n2, float n3, float n4, float n5, float n6, float n7, float n8);
 };
 
 #endif
