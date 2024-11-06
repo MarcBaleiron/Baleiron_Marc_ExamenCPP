@@ -6,13 +6,11 @@
 class T_X_D
 {
 public:
-    double n1;
-    double n2;
-    double n3;
+    float n[3];
 
     T_X_D ();
 
-    void operacion (double n1, double n2, double n3);
+    void operacion (float n1, float n2, float n3);
 };
 
 #endif

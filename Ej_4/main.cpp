@@ -6,18 +6,25 @@ using namespace std;
 
 int main ()
 {
-    double n1;
-    double n2;
-    double n3;
+    float n[3];
 
     T_X_D txd;
 
-    cout << "Introduzca el valor del primer articulo: " << "\n";
-    cin >> n1;
-    cout << "Introduzca el valor del segundo articulo: " << "\n";
-    cin >> n2;
-    cout << "Introduzca el valor del tercer articulo: " << "\n";
-    cin >> n3;
+    int i;
 
-    txd.operacion (n1, n2, n3);
+    for (i = 0; i < 3; i++)
+    {
+        cout << "Introduzca el valor del articulo " << i + 1 << ": " << "\n";
+        cin >> n[i];
+
+        while (n[i] < 0)
+        {
+            cout << "Introduzca un valor mayor que cero para el articulo " << i + 1 << ": " << "\n";
+            cin >> n[i];
+        }
+    }
+
+    txd.operacion (n[0], n[1], n[2]);
+
+    cout << "n1: " << n[0] << "\n" << "n2: " << n[1] << "\n" << "n3: " << n[2] << endl;
 }
