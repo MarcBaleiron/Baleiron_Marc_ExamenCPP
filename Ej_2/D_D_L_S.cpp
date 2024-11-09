@@ -37,5 +37,10 @@ void D_D_L_S::operacion (int n)
         case 7:
             cout << "Domingo" << endl;
             break;
+        default:
+            cout << "Numero incorrecto. Introduzca un numero entre 1 y 7: " << endl;
+            cin >> n;
+            operacion (n);
+            break;
     }
 }
